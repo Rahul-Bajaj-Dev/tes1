@@ -92,3 +92,4 @@ BEGIN
     UPDATE Books
     SET StockQuantity = StockQuantity - p_Quantity
     WHERE ISBN = p_ISBN;
+END
